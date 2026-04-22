@@ -1,0 +1,1575 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://urban-adventure-qm9y5k8.pages.github.io/AI_usage/Ai_info/">
+      
+      
+        <link rel="prev" href="../../workflows/ci-cd/">
+      
+      
+        <link rel="next" href="../../handover/handover/">
+      
+      
+      <link rel="icon" href="../../logos/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>AI Usage - Secondhand Marketplace</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ai-usage-in-this-project" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Secondhand Marketplace" class="md-header__button md-logo" aria-label="Secondhand Marketplace" data-md-component="logo">
+      
+  <img src="../../logos/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Secondhand Marketplace
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              AI Usage
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/spe-uob/2025-SecondhandMarketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    spe-uob/2025-SecondhandMarketplace
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Secondhand Marketplace" class="md-nav__button md-logo" aria-label="Secondhand Marketplace" data-md-component="logo">
+      
+  <img src="../../logos/logo.svg" alt="logo">
+
+    </a>
+    Secondhand Marketplace
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/spe-uob/2025-SecondhandMarketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    spe-uob/2025-SecondhandMarketplace
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Guides
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Guides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-instructions/user-instructions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    User Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project-setup/project-setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Project References
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Project References
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../database-structure/database-structure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Database Structure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../naming_conventions/naming_conventions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Naming Conventions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Production
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Production
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aws/aws-infrastructure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AWS Infrastructure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aws/iam-oidc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IAM and OIDC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../workflows/ci-cd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CI/CD Workflows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Governance
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Governance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    AI Usage
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    AI Usage
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ai-usage-in-this-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      🤖 AI Usage in This Project
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🤖 AI Usage in This Project">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools &amp; Scope
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools & Scope">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools used:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scope-of-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scope of use:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prohibited-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prohibited use:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Procedure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Policies:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coding-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coding standards
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-generate-quality-ai-written-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to generate quality AI-written code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-usages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example usages
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example usages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prompt-ewan-case-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Ewan (case 1)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-code-snippet-gemini-case-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response [code snippet] - Gemini (case 1)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-ewan-case-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Ewan (case 2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-code-snippet-gemini-case-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response [code snippet] - Gemini (case 2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-ewan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Ewan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-github-copilot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response - GitHub Copilot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-ewan-case-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Ewan (case 3)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-github-copilot-case-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response - GitHub Copilot (case 3)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-emir-case-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Emir (case 4)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-code-snippet-case-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response [code snippet] (case 4)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-emir-case-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Emir (case 10)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-claude-sonnet-45-case-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response - Claude Sonnet 4.5 (case 10)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../handover/handover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Handover
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ai-usage-in-this-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      🤖 AI Usage in This Project
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🤖 AI Usage in This Project">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-scope" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools &amp; Scope
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools & Scope">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tools-used" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools used:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scope-of-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scope of use:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prohibited-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prohibited use:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Procedure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Policies:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coding-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Coding standards
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-generate-quality-ai-written-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to generate quality AI-written code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-usages" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example usages
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example usages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prompt-ewan-case-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Ewan (case 1)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-code-snippet-gemini-case-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response [code snippet] - Gemini (case 1)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-ewan-case-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Ewan (case 2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-code-snippet-gemini-case-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response [code snippet] - Gemini (case 2)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-ewan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Ewan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-github-copilot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response - GitHub Copilot
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-ewan-case-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Ewan (case 3)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-github-copilot-case-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response - GitHub Copilot (case 3)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-emir-case-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Emir (case 4)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-code-snippet-case-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response [code snippet] (case 4)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prompt-emir-case-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prompt - Emir (case 10)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#response-claude-sonnet-45-case-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      Response - Claude Sonnet 4.5 (case 10)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>AI Usage</h1>
+
+<h2 id="ai-usage-in-this-project">🤖 AI Usage in This Project<a class="headerlink" href="#ai-usage-in-this-project" title="Permanent link">&para;</a></h2>
+<h3 id="tools-scope">Tools &amp; Scope<a class="headerlink" href="#tools-scope" title="Permanent link">&para;</a></h3>
+<h4 id="tools-used">Tools used:<a class="headerlink" href="#tools-used" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Github Copilot: For code completion / suggestions</li>
+<li>Chatgpt 4 / 5 / Google Gemini: for brainstorming ideas and code structuring</li>
+<li>Claude Sonnet 4.5 / Chatgpt 5 / Gemini: For brainstroming and getting help for creating the s3 bucket and cloudfront stuff in aws system.</li>
+</ul>
+<h4 id="scope-of-use">Scope of use:<a class="headerlink" href="#scope-of-use" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Generating boilerplate code</li>
+<li>Generating unit tests</li>
+<li>Refactoring</li>
+<li>Structuring some documentation content</li>
+<li>Helping design a basic continuous deployment (CD) setup for the backend</li>
+<li>Asist with structuring and refactoring the Flutter frontend API wiring</li>
+<li>Assisted with AWS CloudFront + S3 configuration</li>
+<li>OIDC IAM role setup for GitHub Action</li>
+<li>CI/CD pipeline structuring for Flutter web deployment.</li>
+</ul>
+<h4 id="prohibited-use">Prohibited use:<a class="headerlink" href="#prohibited-use" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Generating images or videos</li>
+<li>Generating text for documentation</li>
+<li>Generating code that handles secret keys</li>
+<li>Generating README</li>
+<li>Generating user stories</li>
+</ul>
+<h3 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">&para;</a></h3>
+<h4 id="policies">Policies:<a class="headerlink" href="#policies" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Always subject AI generated code to the same standard of peer review as with groupmates</li>
+<li>The human developer is always held accountable for generated code</li>
+</ul>
+<h4 id="coding-standards">Coding standards<a class="headerlink" href="#coding-standards" title="Permanent link">&para;</a></h4>
+<ul>
+<li>AI generated code should be refactored to hold to project code standardisation</li>
+<li>Provide example code when needed</li>
+</ul>
+<h3 id="how-to-generate-quality-ai-written-code">How to generate quality AI-written code<a class="headerlink" href="#how-to-generate-quality-ai-written-code" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Use tailored, specific prompts that reference existing files to provide context</li>
+<li>Do not generate large code blocks, generate a small block at a time and make sure you understand the core concepts fully before implementing</li>
+<li>Always ask how concepts work when stuck with what to do</li>
+</ul>
+<h3 id="example-usages">Example usages<a class="headerlink" href="#example-usages" title="Permanent link">&para;</a></h3>
+<h4 id="prompt-ewan-case-1">Prompt - Ewan (case 1)<a class="headerlink" href="#prompt-ewan-case-1" title="Permanent link">&para;</a></h4>
+<p>"create a similiar test but for get_user_profile()"
+<em>context: provided my test for get_items, to be integrated into the same suite</em></p>
+<h4 id="response-code-snippet-gemini-case-1">Response [code snippet] - Gemini (case 1)<a class="headerlink" href="#response-code-snippet-gemini-case-1" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">unittest.mock</span> <span class="kn">import</span> <span class="n">patch</span><span class="p">,</span> <span class="n">MagicMock</span>
+
+<span class="k">def</span> <span class="nf">test_get_user_profile_success</span><span class="p">(</span><span class="n">client</span><span class="p">):</span>
+    <span class="c1"># Use a &quot;mock&quot; supabase specifically in the services file where it&#39;s now defined</span>
+    <span class="k">with</span> <span class="n">patch</span><span class="p">(</span><span class="s2">&quot;services.supabase&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">mock_supabase</span><span class="p">:</span>
+        <span class="c1"># Mocking the Supabase response for a single profile record</span>
+        <span class="n">mock_response</span> <span class="o">=</span> <span class="n">MagicMock</span><span class="p">()</span>
+        <span class="n">mock_response</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;abc123-uuid-format&quot;</span><span class="p">,</span> <span class="c1"># profiles table uses uuid</span>
+            <span class="s2">&quot;username&quot;</span><span class="p">:</span> <span class="s2">&quot;testuser&quot;</span><span class="p">,</span>      <span class="c1"># text field</span>
+            <span class="s2">&quot;location&quot;</span><span class="p">:</span> <span class="s2">&quot;London, UK&quot;</span><span class="p">,</span>    <span class="c1"># text field</span>
+            <span class="s2">&quot;rating_score&quot;</span><span class="p">:</span> <span class="mf">4.5</span><span class="p">,</span>         <span class="c1"># numeric field</span>
+            <span class="s2">&quot;rating_count&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>          <span class="c1"># int4 field</span>
+            <span class="s2">&quot;avatar_url&quot;</span><span class="p">:</span> <span class="s2">&quot;https://example.com/avatar.png&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;bio&quot;</span><span class="p">:</span> <span class="s2">&quot;Hello, I am a tester.&quot;</span>
+        <span class="p">}</span>
+
+        <span class="c1"># Setup the mock chain for .table().select().eq().single().execute()</span>
+        <span class="c1"># Note: Added .single() to match the logic for fetching one profile</span>
+        <span class="n">mock_supabase</span><span class="o">.</span><span class="n">table</span><span class="o">.</span><span class="n">return_value</span><span class="o">.</span><span class="n">select</span><span class="o">.</span><span class="n">return_value</span><span class="o">.</span><span class="n">eq</span><span class="o">.</span><span class="n">return_value</span><span class="o">.</span><span class="n">single</span><span class="o">.</span><span class="n">return_value</span><span class="o">.</span><span class="n">execute</span><span class="o">.</span><span class="n">return_value</span> <span class="o">=</span> <span class="n">mock_response</span>
+
+        <span class="c1"># Define the test UUID (matches the route parameter &lt;uuid:user_id&gt;)</span>
+        <span class="n">test_uuid</span> <span class="o">=</span> <span class="s2">&quot;abc123-uuid-format&quot;</span>
+
+        <span class="c1"># Execute the GET request to the profile route</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;/api/profile/</span><span class="si">{</span><span class="n">test_uuid</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">get_json</span><span class="p">()</span>
+
+        <span class="c1"># Assertions to verify the API behavior</span>
+        <span class="k">assert</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span>
+        <span class="k">assert</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;status_code&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">200</span>
+
+        <span class="c1"># Data validation</span>
+        <span class="n">profile</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;data&quot;</span><span class="p">,</span> <span class="p">{})</span>
+        <span class="k">assert</span> <span class="n">profile</span><span class="p">[</span><span class="s2">&quot;username&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;testuser&quot;</span>
+        <span class="k">assert</span> <span class="n">profile</span><span class="p">[</span><span class="s2">&quot;rating_count&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">10</span>
+
+        <span class="c1"># Type validation based on database schema</span>
+        <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">profile</span><span class="p">[</span><span class="s2">&quot;rating_score&quot;</span><span class="p">],</span> <span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">float</span><span class="p">))</span>
+        <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">profile</span><span class="p">[</span><span class="s2">&quot;username&quot;</span><span class="p">],</span> <span class="nb">str</span><span class="p">)</span>
+        <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">profile</span><span class="p">[</span><span class="s2">&quot;id&quot;</span><span class="p">],</span> <span class="nb">str</span><span class="p">)</span>
+</code></pre></div>
+<h4 id="prompt-ewan-case-2">Prompt - Ewan (case 2)<a class="headerlink" href="#prompt-ewan-case-2" title="Permanent link">&para;</a></h4>
+<p>"add tests in python for these helper functions that connect to supabase"
+<em>context: provided my <code>services.py</code>, so i could get tests for both functions held within</em></p>
+<h4 id="response-code-snippet-gemini-case-2">Response [code snippet] - Gemini (case 2)<a class="headerlink" href="#response-code-snippet-gemini-case-2" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">pytest</span>
+<span class="kn">from</span> <span class="nn">unittest.mock</span> <span class="kn">import</span> <span class="n">MagicMock</span>
+<span class="kn">from</span> <span class="nn">app</span> <span class="kn">import</span> <span class="n">create_app</span>
+<span class="kn">from</span> <span class="nn">app.services</span> <span class="kn">import</span> <span class="n">fetch_user_by_id</span><span class="p">,</span> <span class="n">fetch_item_by_id</span>
+
+<span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span>
+<span class="k">def</span> <span class="nf">mock_supabase</span><span class="p">():</span>
+<span class="o">...</span>
+</code></pre></div>
+<h4 id="prompt-ewan">Prompt - Ewan<a class="headerlink" href="#prompt-ewan" title="Permanent link">&para;</a></h4>
+<p>"create a test in tests to test that the home.dart correctly renders"
+<em>GitHub copilot can read my whole repo to make contextual changes</em></p>
+<h4 id="response-github-copilot">Response - GitHub Copilot<a class="headerlink" href="#response-github-copilot" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>created <code>home_page_test.dart</code> in application/test</p>
+</blockquote>
+<p>"Added an injectable APIService hook on HomePage so the widget can be rendered deterministically in tests, then created a widget test that pumps the page with a fake service and a minimal SVG asset bundle. This validates the page renders its core UI and empty state without hitting the network. Changes are in home_page.dart and the new test at home_page_test.dart."</p>
+<h4 id="prompt-ewan-case-3">Prompt - Ewan  (case 3)<a class="headerlink" href="#prompt-ewan-case-3" title="Permanent link">&para;</a></h4>
+<p>"create a test for the api service with mock http responses"
+<em>Github copilot received <code>api_service.dart</code> and made contextual changes</em></p>
+<h4 id="response-github-copilot-case-3">Response - GitHub Copilot  (case 3)<a class="headerlink" href="#response-github-copilot-case-3" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>created <code>api_service_test.dart</code> in application/test
+created <code>api_service_test.mocks.dart</code> in application/test</p>
+</blockquote>
+<p>"Created a comprehensive test suite for APIService with 10 test cases covering:</p>
+<p>checkConnection()</p>
+<p>Returns message when backend is reachable
+Returns default message when no message field
+Throws exception on non-200 status
+Throws exception on network error
+getItems()</p>
+<p>Returns list of items on success
+Returns empty list when table_data is empty
+Returns empty list when response is empty object
+Throws exception on non-200 status
+Throws exception on invalid JSON
+Filters out non-map items from malformed data
+Added mockito and build_runner dependencies, generated mocks, and all tests are passing."</p>
+<h4 id="prompt-emir-case-4">Prompt - Emir  (case 4)<a class="headerlink" href="#prompt-emir-case-4" title="Permanent link">&para;</a></h4>
+<p>Create a GitHub Actions workflow for deploying a Flutter web app to AWS S3 
+and invalidating CloudFront.</p>
+<p>Constraints:
+- Use GitHub OIDC (no long-lived AWS keys)
+- Assume an IAM role
+- Sync build/web to S3
+- Invalidate CloudFront distribution
+- The Flutter project is inside the "application/" directory
+- Use release build
+- Provide clear placeholder comments for role ARN, bucket name, and distribution ID.</p>
+<h4 id="response-code-snippet-case-4">Response [code snippet] (case 4)<a class="headerlink" href="#response-code-snippet-case-4" title="Permanent link">&para;</a></h4>
+<p><div class="highlight"><pre><span></span><code>name: Deploy Web (S3 + CloudFront)
+
+on:
+push:
+    branches:
+    - 
+
+jobs:
+deploy:
+    runs-on: ubuntu-latest
+    permissions:
+    id-token: write
+    contents: read
+
+defaults:
+  run:
+    working-directory: application
+
+steps:
+  - uses: 
+
+  - uses: 
+    with:
+      channel: 
+
+  - run: flutter pub get
+  - run: flutter build web --release
+
+  - uses: 
+    with:
+      role-to-assume: ${{}}
+      aws-region: 
+
+  - run: |
+      aws cloudfront create-invalidation \
+        --distribution-id ${{ }} \
+        --paths &quot;/*&quot;
+ ```
+
+#### Prompt - Filip (case 5)
+&quot;I have made changes on this branch and now home_page_test.dart is failing at CI in item_model_test.dart&quot;
+*provided front-end test code and home_page.dart with latest changes*
+
+
+#### Response - Gemini (case 5)
+To address your failing home_page_test.dart in CI, you should:
+
+Open the file:
+Review and debug the test to identify the failure reason.
+Make necessary fixes.
+No new files need to be created or edited for test setup—just update the existing test file.
+
+To re-run your Flutter tests locally and verify the fix, use:
+</code></pre></div>
+flutter test
+<div class="highlight"><pre><span></span><code>You can also search for an extension to make tests easy to run in VS Code:
+Search extensions
+
+
+#### Prompt - Filip (case 6)
+&quot;we need a CD for our full stack project. We have a minimal one for backend, can I do one for our front end? would it be a different file/pipeline to the backend one?&quot;
+*needed assistance with setting up continuous deployment for our frontend*
+
+#### Response - Chat GPT 5.1 (case 6)
+Yes, you absolutely can (and usually should) have a separate CD pipeline for the frontend. Backend and frontend deployments tend to have different build steps, artifacts, and hosting targets, so pretending one workflow fits all is the kind of optimism that makes on-call engineers cry.
+
+**Typical approach**
+
+In GitHub Actions you usually create another workflow file inside:
+</code></pre></div>
+.github/workflows/
+<div class="highlight"><pre><span></span><code>For example:
+</code></pre></div>
+backend-cd.yml
+frontend-cd.yml
+<div class="highlight"><pre><span></span><code>Each workflow triggers on changes relevant to that part of the repo.
+
+Example trigger for frontend:
+</code></pre></div>
+on:
+  push:
+    branches: [main]
+    paths:
+      - "frontend/**"
+<div class="highlight"><pre><span></span><code>This ensures the frontend deploy runs only when frontend files change, instead of redeploying everything every time someone fixes a typo in a README.
+
+**What differs from backend CD**
+
+Frontend CD usually includes:
+
+...
+
+#### Prompt - Filip (case 7)
+&quot;I am adding a logo to our flutter frontend. What format should I use to to make it easier? SVG?&quot;
+*making sure that my choice of format is fitting early on and that it is scalable*
+
+#### Response - Chat GPT 5.0 (case 7)
+Short answer: **SVG is already the easiest**. Long answer: only if you behave.
+
+Here&#39;s the brutally honest ranking for Flutter headers, from &quot;pleasant&quot; to &quot;why did you do this to yourself&quot;.
+
+---
+
+## 🥇 SVG (best choice, if done right)
+
+**Use this if** the logo is simple shapes and flat colors.
+
+**Why it&#39;s good**
+
+* Scales perfectly on every screen
+* Tiny file size
+* Looks sharp in headers
+* Works nicely with `flutter_svg`
+
+**Rules you must follow**
+
+* No embedded fonts
+* No filters, masks, blur, gradients if you value your sanity
+* Convert text to paths before export
+* Remove hardcoded colors if you want them themeable
+
+...
+
+
+#### Prompt - Yunbo  (case 8)
+*Use VSCode auto write to code efficiently.
+Explanation: When I write code through VSCode, GitHub Copilot provides inline suggestions. What I do is just let it write the framework after which I amend it manually.*
+
+#### Response [code snippet] (case 8)
+For example
+</code></pre></div>
+SizedBox(
+  width: 48,
+  child: showBackButton
+      ? IconButton(
+          icon: const Icon(Icons.arrow_back, size: 28),
+          tooltip: 'Back',
+          onPressed: () {
+            Navigator.pop(context);
+          }
+        )
+      : const SizedBox(),
+),<br />
+<div class="highlight"><pre><span></span><code>code like ```child: showBackButton``` can be automatically written in VSCode by Github Copilot.
+
+...
+
+#### Prompt - Lingze (case 9)
+*In Flutter, help me write the login flow for a sign-in screen, including form validation, calling the backend login API, handling a &quot;Remember Me&quot; checkbox, showing success/error messages, and navigating after a successful login.*
+
+#### Response [code snippet] (case 9)
+
+For example:
+
+```dart
+Future&lt;void&gt; login() async {
+  FocusScope.of(context).unfocus();
+  if (!_formKey.currentState!.validate()) return;
+
+  final email = _emailController.text.trim().toLowerCase();
+  final password = _passwordController.text;
+
+  setState(() =&gt; _isLoading = true);
+
+  try {
+    await _api.login(email: email, password: password);
+
+    if (_rememberMe &amp;&amp; _api.accessToken != null) {
+      await _storage.saveSession(
+        AuthSession(
+          accessToken: _api.accessToken!,
+          refreshToken: _api.refreshToken!,
+          expiresAt: _api.expiresAt,
+        ),
+      );
+    }
+
+    ...
+    Navigator.of(context).pushNamedAndRemoveUntil(&#39;/&#39;, (route) =&gt; false);
+  } on ApiException catch (e) {
+    ...
+  } finally {
+    if (mounted) setState(() =&gt; _isLoading = false);
+  }
+}
+</code></pre></div></p>
+<h4 id="prompt-emir-case-10">Prompt - Emir (case 10)<a class="headerlink" href="#prompt-emir-case-10" title="Permanent link">&para;</a></h4>
+<p>"Create flowchart diagrams for all six GitHub Actions workflows in our project. Each workflow should have its own diagram showing the trigger, steps, and outcome."
+<em>provided all six workflow YAML files as context</em></p>
+<h4 id="response-claude-sonnet-45-case-10">Response - Claude Sonnet 4.5 (case 10)<a class="headerlink" href="#response-claude-sonnet-45-case-10" title="Permanent link">&para;</a></h4>
+<p>Generated SVG flowchart diagrams for all six CI/CD workflows:</p>
+<ul>
+<li><code>pr-formatting-ci.yml</code> — three parallel checks (title format, closing tag, type of change)</li>
+<li><code>flutter-ci.yml</code> — checkout, Flutter setup, analyze and test in parallel</li>
+<li><code>flask-ci.yml</code> — checkout, Python setup, Ruff format/lint and pytest in parallel</li>
+<li><code>deploy-web.yml</code> — Flutter build, OIDC auth, S3 sync, CloudFront invalidation, health check</li>
+<li><code>backend-cd.yml</code> — zip creation, OIDC auth, S3 upload, EB deploy, health check with rollback on failure</li>
+<li><code>mkdocs-cd.yml</code> — checkout, MkDocs build, GitHub Pages publish</li>
+</ul>
+<p>Diagrams were saved as SVG files under <code>docs/workflows/diagrams/</code> and referenced in <code>ci-cd.md</code>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "content.code.copy"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
