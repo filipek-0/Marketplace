@@ -10,6 +10,18 @@
 [![Ruff](https://img.shields.io/badge/Ruff-galaxy?style=for-the-badge&logo=ruff&logoColor=black&logoSize=auto)](https://docs.astral.sh/ruff/)
 [![Pytest](https://img.shields.io/badge/Pytest-%230A9EDC?style=for-the-badge&logo=pytest&logoColor=white&logoSize=auto)](https://docs.pytest.org/en/stable/)
 
+## Note
+This project was built as a team of 5 at the University of Bristol as a Software Engineering Project for a real client (2026). 
+
+My contributions spanned the full stack:
+- UI/UX design (wireframes, Figma designs, user flows)
+- Frontend implementation
+- Backend development
+- Database design and Supabase API integration
+- Attempted AWS deployment, which did not make it into the final release in the end, but gave me a lot of exposure to cloud infrastructure
+
+Original repository: [spe-uob/2025-SecondhandMarketplace](https://github.com/spe-uob/2025-SecondhandMarketplace)  *(private to University of Bristol organisation)*
+
 ## Contents
 - [Project description](#project-description)
 - [Project goals](#project-goals)
